@@ -43,7 +43,7 @@ graph TB
 ```bash
 # 1. Clone and enter the project
 git clone https://github.com/VaseGod/Hyperion.git
-cd dark-factory-v2
+cd Hyperion
 
 # 2. Create virtual environment
 python3.11 -m venv venv
@@ -69,7 +69,7 @@ python -m src.main --interactive
 ## Project Structure
 
 ```
-dark-factory-v2/
+Hyperion/
 ├── requirements.txt          # Python dependencies
 ├── .env.example              # Environment variable template
 ├── .gitignore
