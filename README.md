@@ -42,7 +42,7 @@ graph TB
 
 ```bash
 # 1. Clone and enter the project
-git clone https://github.com/your-org/dark-factory-v2.git
+git clone https://github.com/VaseGod/Hyperion.git
 cd dark-factory-v2
 
 # 2. Create virtual environment
