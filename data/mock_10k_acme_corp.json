@@ -1,0 +1,161 @@
+{
+  "filing_metadata": {
+    "form_type": "10-K",
+    "company_name": "Acme Corporation",
+    "cik": "0001234567",
+    "ticker": "ACME",
+    "filing_date": "2024-03-15",
+    "fiscal_year_end": "2024-12-31",
+    "accession_number": "0001234567-24-000042",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/0001234567/000123456724000042/acme-20241231.htm",
+    "sic_code": "3674",
+    "industry": "Electronic Components",
+    "state_of_incorporation": "Delaware",
+    "address": "100 Innovation Drive, San Jose, CA 95134"
+  },
+  "business_overview": {
+    "description": "Acme Corporation is a leading provider of advanced electronic components and semiconductor solutions, serving consumer electronics, industrial automation, and automotive technology markets globally.",
+    "founded": 1985,
+    "employees": 12500,
+    "operating_countries": 15,
+    "segments": [
+      {
+        "name": "Consumer Electronics",
+        "revenue_pct": 45,
+        "description": "Microcontrollers and connectivity modules for consumer devices"
+      },
+      {
+        "name": "Industrial Automation",
+        "revenue_pct": 30,
+        "description": "Sensors and power management ICs for industrial applications"
+      },
+      {
+        "name": "Automotive Technologies",
+        "revenue_pct": 25,
+        "description": "Advanced driver assistance systems and vehicle electrification components"
+      }
+    ],
+    "revenue_sources": {
+      "product_sales_pct": 85,
+      "licensing_services_pct": 15
+    }
+  },
+  "risk_factors": [
+    {
+      "heading": "We face intense competition in our semiconductor markets",
+      "category": "MARKET",
+      "severity": "HIGH",
+      "description": "The semiconductor industry is intensely competitive. We compete with large multinational corporations that have substantially greater financial, technical, and marketing resources. Our inability to compete effectively could have a material adverse effect on our business, financial condition, and results of operations.",
+      "quantified_impact": "Competitive pricing pressure reduced gross margins by approximately 2.3 percentage points in FY2024",
+      "change_status": "MODIFIED",
+      "prior_year_comparison": "Severity upgraded from MEDIUM due to increased margin pressure"
+    },
+    {
+      "heading": "Global supply chain disruptions could materially impact manufacturing",
+      "category": "OPERATIONAL",
+      "severity": "HIGH",
+      "description": "Our manufacturing operations depend on a complex global supply chain for raw materials, specialized equipment, and third-party fabrication services. Geopolitical tensions, natural disasters, or pandemics could cause significant supply chain disruptions.",
+      "quantified_impact": "Single-source dependencies exist for 3 critical raw materials",
+      "change_status": "UNCHANGED",
+      "prior_year_comparison": "Risk language unchanged from FY2023"
+    },
+    {
+      "heading": "Regulatory changes in international markets pose compliance risks",
+      "category": "REGULATORY",
+      "severity": "MEDIUM",
+      "description": "We operate in multiple jurisdictions with varying regulatory requirements. Changes in trade policies, export controls, environmental regulations, or tax laws could increase our compliance costs or restrict market access.",
+      "quantified_impact": "Estimated additional compliance cost from recent EU regulations is $15 million annually",
+      "change_status": "NEW",
+      "prior_year_comparison": "New risk factor added in response to EU Digital Services Act"
+    },
+    {
+      "heading": "Cybersecurity vulnerabilities could result in data breaches and operational disruptions",
+      "category": "TECHNOLOGY",
+      "severity": "HIGH",
+      "description": "Our operations rely heavily on information technology infrastructure. A significant cybersecurity incident could result in the loss of proprietary technology, customer data, and business disruption.",
+      "quantified_impact": "Invested $45 million in cybersecurity measures during FY2024",
+      "change_status": "MODIFIED",
+      "prior_year_comparison": "Added quantified investment figure; language strengthened"
+    },
+    {
+      "heading": "Dependence on key personnel and ability to attract talent",
+      "category": "OPERATIONAL",
+      "severity": "MEDIUM",
+      "description": "Our success depends on the continued service of key technical and management personnel. The loss of key employees or inability to attract qualified talent could impair our ability to execute our business strategy.",
+      "quantified_impact": "Employee turnover in engineering roles was 8.2% in FY2024",
+      "change_status": "UNCHANGED",
+      "prior_year_comparison": "Risk language substantially unchanged"
+    },
+    {
+      "heading": "Climate change and environmental regulations may increase operating costs",
+      "category": "ESG",
+      "severity": "MEDIUM",
+      "description": "Physical risks from climate change, including extreme weather events, could disrupt our operations and supply chain. Transition risks from stricter environmental regulations could increase compliance and operating costs.",
+      "quantified_impact": "Carbon neutrality target by 2040 requires estimated $200 million cumulative investment",
+      "change_status": "NEW",
+      "prior_year_comparison": "First year of ESG-specific risk factor disclosure"
+    }
+  ],
+  "financial_statements": {
+    "income_statement": {
+      "revenue": {"fy2024": 2500000000, "fy2023": 2230000000, "change_pct": 12.1},
+      "cost_of_revenue": {"fy2024": 1500000000, "fy2023": 1340000000, "change_pct": 11.9},
+      "gross_profit": {"fy2024": 1000000000, "fy2023": 890000000, "change_pct": 12.4},
+      "operating_expenses": {"fy2024": 1850000000, "fy2023": 1680000000, "change_pct": 10.1},
+      "rd_expense": {"fy2024": 180000000, "fy2023": 147500000, "change_pct": 22.0},
+      "net_income": {"fy2024": 340000000, "fy2023": 290000000, "change_pct": 17.2},
+      "eps_basic": {"fy2024": 6.80, "fy2023": 5.80},
+      "eps_diluted": {"fy2024": 6.72, "fy2023": 5.74}
+    },
+    "balance_sheet": {
+      "total_assets": {"fy2024": 4200000000, "fy2023": 3800000000},
+      "total_liabilities": {"fy2024": 2100000000, "fy2023": 1950000000},
+      "stockholders_equity": {"fy2024": 2100000000, "fy2023": 1850000000},
+      "cash_and_equivalents": {"fy2024": 890000000, "fy2023": 720000000},
+      "total_debt": {"fy2024": 1200000000, "fy2023": 1100000000}
+    },
+    "cash_flow": {
+      "operating_cash_flow": {"fy2024": 520000000, "fy2023": 460000000},
+      "capital_expenditures": {"fy2024": -210000000, "fy2023": -185000000},
+      "free_cash_flow": {"fy2024": 310000000, "fy2023": 275000000}
+    },
+    "key_ratios": {
+      "gross_margin_pct": 40.0,
+      "operating_margin_pct": 14.0,
+      "net_margin_pct": 13.6,
+      "debt_to_equity": 0.57,
+      "current_ratio": 2.1,
+      "roe_pct": 16.2,
+      "roa_pct": 8.1
+    }
+  },
+  "mda_highlights": {
+    "revenue_drivers": [
+      "Strong demand in Automotive Technologies segment (+28% YoY)",
+      "Consumer Electronics segment growth moderated (+5% YoY)",
+      "Industrial Automation recovered from prior year slowdown (+8% YoY)"
+    ],
+    "key_investments": [
+      "R&D spending increased 22% to $180 million, focused on next-gen automotive chips",
+      "Completed acquisition of MicroSense Ltd. for $95 million (sensor technology)",
+      "New fabrication facility in Malaysia expected operational Q3 2025"
+    ],
+    "outlook": "Management expects FY2025 revenue growth of 8-12%, driven by automotive and industrial segments. Gross margins expected to stabilize as pricing pressure moderates."
+  },
+  "officer_changes": [
+    {
+      "name": "John Smith",
+      "position": "Chief Financial Officer",
+      "change_type": "RESIGNED",
+      "effective_date": "2024-06-15",
+      "details": "Resigned to pursue other opportunities. Served as CFO since 2019."
+    },
+    {
+      "name": "Sarah Chen",
+      "position": "Chief Financial Officer",
+      "change_type": "APPOINTED",
+      "effective_date": "2024-06-16",
+      "details": "Previously served as VP of Finance at GlobalTech Inc. MBA from Wharton."
+    }
+  ]
+}

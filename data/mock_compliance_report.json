@@ -1,0 +1,107 @@
+{
+  "report_metadata": {
+    "generated_at": "2024-09-15T14:30:00Z",
+    "agent_version": "1.0.0",
+    "target_company": "Acme Corporation",
+    "cik": "0001234567",
+    "filing_type": "10-K",
+    "filing_date": "2024-03-15",
+    "accession_number": "0001234567-24-000042",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/0001234567/000123456724000042/acme-20241231.htm",
+    "analysis_duration_seconds": 45.2,
+    "tool_calls_made": 8,
+    "context_tokens_used": 12500
+  },
+  "executive_summary": "Acme Corporation's FY2024 10-K filing reveals a company in strong growth mode with revenue up 12.1% to $2.5 billion, driven primarily by automotive technology demand. However, the filing introduces two new risk factors — EU regulatory compliance ($15M annual impact) and ESG-related climate risks ($200M cumulative investment target). The CFO transition (John Smith to Sarah Chen) during the fiscal year warrants monitoring. Overall financial health is solid with a debt-to-equity ratio of 0.57 and operating cash flow of $520 million. Three HIGH severity risks related to competition, supply chain, and cybersecurity require ongoing attention.",
+  "risk_factors": [
+    {
+      "heading": "We face intense competition in our semiconductor markets",
+      "category": "MARKET",
+      "severity": "HIGH",
+      "key_quote": "Competitive pricing pressure reduced our gross margins by approximately 2.3 percentage points.",
+      "source": "Item 1A, p. 15-16",
+      "change_status": "MODIFIED"
+    },
+    {
+      "heading": "Global supply chain disruptions could materially impact manufacturing",
+      "category": "OPERATIONAL",
+      "severity": "HIGH",
+      "key_quote": "Our manufacturing operations depend on a complex global supply chain for raw materials, specialized equipment, and third-party fabrication services.",
+      "source": "Item 1A, p. 17",
+      "change_status": "UNCHANGED"
+    },
+    {
+      "heading": "Regulatory changes in international markets pose compliance risks",
+      "category": "REGULATORY",
+      "severity": "MEDIUM",
+      "key_quote": "Estimated additional compliance cost from recent EU regulations is $15 million annually.",
+      "source": "Item 1A, p. 19",
+      "change_status": "NEW"
+    },
+    {
+      "heading": "Cybersecurity vulnerabilities could result in data breaches",
+      "category": "TECHNOLOGY",
+      "severity": "HIGH",
+      "key_quote": "We invested $45 million in cybersecurity measures during fiscal year 2024.",
+      "source": "Item 1A, p. 20-21",
+      "change_status": "MODIFIED"
+    },
+    {
+      "heading": "Dependence on key personnel and ability to attract talent",
+      "category": "OPERATIONAL",
+      "severity": "MEDIUM",
+      "key_quote": "Employee turnover in engineering roles was 8.2% in FY2024.",
+      "source": "Item 1A, p. 22",
+      "change_status": "UNCHANGED"
+    },
+    {
+      "heading": "Climate change and environmental regulations may increase operating costs",
+      "category": "ESG",
+      "severity": "MEDIUM",
+      "key_quote": "Carbon neutrality target by 2040 requires estimated $200 million cumulative investment.",
+      "source": "Item 1A, p. 23",
+      "change_status": "NEW"
+    }
+  ],
+  "financial_summary": {
+    "revenue": {"current": 2500000000, "prior": 2230000000, "change_pct": 12.1},
+    "net_income": {"current": 340000000, "prior": 290000000, "change_pct": 17.2},
+    "total_assets": 4200000000,
+    "total_liabilities": 2100000000,
+    "cash_equivalents": 890000000,
+    "operating_cash_flow": 520000000,
+    "eps_basic": 6.80,
+    "eps_diluted": 6.72
+  },
+  "officer_changes": [
+    {
+      "name": "John Smith",
+      "position": "Chief Financial Officer",
+      "change_type": "RESIGNED",
+      "effective_date": "2024-06-15",
+      "source": "8-K filed 2024-06-01"
+    },
+    {
+      "name": "Sarah Chen",
+      "position": "Chief Financial Officer",
+      "change_type": "APPOINTED",
+      "effective_date": "2024-06-16",
+      "source": "8-K filed 2024-06-01"
+    }
+  ],
+  "compliance_flags": [
+    {
+      "flag": "CFO transition during fiscal year — enhanced monitoring recommended",
+      "severity": "MEDIUM",
+      "regulation": "SOX Section 302/906",
+      "recommendation": "Verify certification continuity and review internal controls assessment"
+    },
+    {
+      "flag": "Two new risk factors introduced without prior materiality disclosure",
+      "severity": "LOW",
+      "regulation": "Reg S-K Item 503",
+      "recommendation": "Compare with quarterly 10-Q risk factor updates for consistency"
+    }
+  ],
+  "data_gaps": []
+}

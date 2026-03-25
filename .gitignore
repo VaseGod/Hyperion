@@ -1,0 +1,46 @@
+# =============================================================================
+# Dark Factory v2 — Git Ignore
+# =============================================================================
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Agent Runtime Artifacts
+data/agent_memory.json
+logs/
+*.log
+benchmarks/results/
