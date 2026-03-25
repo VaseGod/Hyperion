@@ -1,4 +1,4 @@
-# Dark Factory v2
+# Hyperion v2
 
 **Automated Financial Compliance & SEC Filing Synthesis**
 
