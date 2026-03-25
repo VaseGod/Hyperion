@@ -1,4 +1,4 @@
-# Hyperion v2
+# Hyperion
 
 **Automated Financial Compliance & SEC Filing Synthesis**
 
